@@ -29,18 +29,21 @@
 
             <div class="form">
 
-                <h2>CONTE-NOS O SEU PROBLEMA</h2>
-                <input type="email" name="email" placeholder="Seu e-mail aqui">
-                <input type="tel" name="" placeholder="digite seu whatsapp aqui">
-                <input type="text" name="" placeholder="conte-nos o seu problema, bem explicado">
-                <button class="btnn"><a href="#">Enviar</a></button>
+               <form action="https://api.staticforms.xyz/submit" method="post" class="preencha">
+                <input type="hidden" name="accessKey" value="9d9a6ee8-519d-41a3-83b2-17db7c5ccf5b">
+                <input type="hidden" name="redirectTo" value="https://menezesmkt.netlify.app/">
+                    <h2>CONTE-NOS O SEU PROBLEMA</h2>
+                    <input type="email" name="email" placeholder="Seu e-mail aqui">
+                    <input id="message" class="contato-pree" type="tel" name="message" placeholder="Digite seu contato">
+                    <label class="forma-de-contato-label"></label>
+                        <input name="message" class="contato-pree" placeholder="Descreva a sua necessidade" id="message">
+                    <button class="btnn"><a href="#">Enviar</a></button>
                 </form>
             </div>
         </div>
     </div>
     </div>
     </div>
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 </body>
 
 </html>
