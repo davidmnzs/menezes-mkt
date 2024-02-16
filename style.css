@@ -54,6 +54,11 @@ p{
     justify-content: center;
     align-content: center;
 }
+form{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
 .form {
     width: 450px;
     height: 480px;
@@ -66,7 +71,6 @@ p{
 }
 
 .form h2 {
-    width: 290px;
     font-family: sans-serif;
     text-align: center;
     color: #ff7200;
