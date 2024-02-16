@@ -11,7 +11,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(15,23,70,1) 45%, rgba(0,212,255,1) 100%);
 }
 p{
     text-align: center;
@@ -29,6 +30,8 @@ p{
     margin: auto;
     color: #fff;
     position: relative;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(15,23,70,1) 45%, rgba(0,212,255,1) 100%);
     
 }
 .content span{
