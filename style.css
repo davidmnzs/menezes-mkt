@@ -49,8 +49,8 @@ p{
     align-content: center;
 }
 .form {
-    width: 250px;
-    height: 380px;
+    width: 450px;
+    height: 480px;
     background: linear-gradient(to top, rgba(32, 32, 32, 0.8) 50%, rgba(32, 32, 32, 0.8) 50%);
     border-radius: 10px;
     padding: 25px;
@@ -60,7 +60,7 @@ p{
 }
 
 .form h2 {
-    width: 220px;
+    width: 290px;
     font-family: sans-serif;
     text-align: center;
     color: #ff7200;
@@ -68,12 +68,12 @@ p{
     background-color: #fff;
     border-radius: 10px;
     margin: 2px;
-    padding: 8px;
+    padding: 20px;
 }
 
 .form input {
-    width: 240px;
-    height: 35px;
+    width: 300px;
+    height: 50px;
     background: transparent;
     border-bottom: 1px solid #ff7200;
     border-top: none;
