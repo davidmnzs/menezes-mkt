@@ -4,7 +4,11 @@
     align-items: center;
     justify-content: center;
     align-content: center;
-    background-color: black;
+    
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,26,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 p{
     text-align: center;
@@ -22,6 +26,8 @@ p{
     margin: auto;
     color: #fff;
     position: relative;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,26,121,1) 35%, rgba(0,212,255,1) 100%);
     
     
 }
@@ -64,7 +70,6 @@ p{
     font-family: sans-serif;
     text-align: center;
     color: #ff7200;
-    font-size: 22px;
     background-color: #fff;
     border-radius: 10px;
     margin: 2px;
