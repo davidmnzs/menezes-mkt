@@ -14,11 +14,16 @@
 
             <div class="form">
 
-                <h2>CONTE-NOS O SEU PROBLEMA</h2>
-                <input type="email" name="email" placeholder="Seu e-mail aqui">
-                <input type="tel" name="" placeholder="digite seu whatsapp aqui">
-                <input type="text" name="" placeholder="conte-nos o seu problema, bem explicado">
-                <button class="btnn"><a href="#">Enviar</a></button>
+                <form action="https://api.staticforms.xyz/submit" method="post" class="preencha" >
+                    <input type="hidden" name="accessKey" value="9d9a6ee8-519d-41a3-83b2-17db7c5ccf5b">
+                    <input type="hidden" name="redirectTo" value="https://menezesmkt.netlify.app/">
+
+                 <h2>CONTE-NOS O SEU PROBLEMA</h2>
+                 <input name ="name" class="contato-pree" placeholder="Digte seu nome" type="text" id="name">
+                 <input name="email" class="contato-pree" placeholder="digite seu e-mail" type="text" id="email">
+                 <input type="tel" name="" placeholder="digite seu whatsapp aqui">
+                 <input input name="message" class="contato-pree" placeholder="Conte-nos o seu problema" id="message">
+                 <button class="btnn"><a href="#">Enviar</a></button>
                 </form>
             </div>
         </div>
